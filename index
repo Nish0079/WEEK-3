@@ -1,0 +1,11 @@
+function EmployeeInfo(name, salary) {
+    console.log("Welcome " + name + ", Your monthly salary is " + salary);
+}
+
+console.log("This is my first program");
+
+var EmpName = "John";
+var EmpSalary = 50000;
+
+// Calling the function
+EmployeeInfo(EmpName, EmpSalary);
